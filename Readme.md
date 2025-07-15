@@ -6,6 +6,12 @@ pip install -r requirements.txt
 
 pip freeze > requirements.txt
 
+# 3. User uses their Google credentials and stores the credential file inside the project folder.
+project/
+│
+├── credentials/               <-- ⬅️ Store user's Google tokens here
+│   └── user1_token.json
+
 #Architecture Flow:
 User
 ↓
